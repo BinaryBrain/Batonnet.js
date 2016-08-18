@@ -1,2 +1,24 @@
 # Batonnet.js
-:pencil: A universal, intercultural and user-friendly way to display numbers
+
+Batonnet.js (or Bâtonnet.js, pronounced /ba.tɔ.nɛ/) is a universal, intercultural and user-friendly way to display numbers.
+It provides a lightweight, easy to use library that can convert any positive integers into a more readable form, even across different regional, political and/or religional culture.
+
+## Usage
+
+Download [`batonnet.min.js`](batonnet.min.js) and include it in a `<script></script>` tag in your web page:
+
+```html
+<script src="batonnet.min.js"></script>
+```
+
+Then, surround numbers you want to convert with a tag containing the class `batonnet` as such:
+
+```html
+<p>I've already caught <span class="batonnet">13</span> fishes!</p>
+```
+
+And finally call the `Batonnet()` function in javascript once the element is loaded:
+
+```js
+Batonnet();
+```
