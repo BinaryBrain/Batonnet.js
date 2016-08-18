@@ -1,0 +1,14 @@
+.batonnet {
+	font-size: 30px;
+}
+
+.batonnet-group {
+	position: relative;
+}
+
+.batonnet-slash {
+	display: inline-block;
+	transform: rotate(75deg);
+	position: absolute;
+	left: 50%;
+}
