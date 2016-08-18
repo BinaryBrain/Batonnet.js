@@ -7,8 +7,6 @@ Batonnet = function () {
 	})
 
 	function process(batonnet) {
-		console.log(batonnet)
-
 		let value = parseInt(batonnet.innerText)
 		let nbGroup = Math.ceil(value / 5)
 
@@ -20,7 +18,6 @@ Batonnet = function () {
 		}
 
 		for (let i = 0; i < nbGroup; i++) {
-			// full group
 			if (i < nbGroup - 1 || value % 5 === 0) {
 				groupsResult.push('<span class="batonnet-group">' + c + c + c + c + '<span class="batonnet-slash">' + c + '</span></span>')
 			} else {
