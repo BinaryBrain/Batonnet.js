@@ -5,6 +5,7 @@
 
 .batonnet-group {
 	position: relative;
+	display: inline-block;
 }
 
 .batonnet-slash {
