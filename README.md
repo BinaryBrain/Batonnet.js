@@ -5,9 +5,10 @@ It provides a lightweight, easy to use library that can convert any positive int
 
 ## Usage
 
-Download [`batonnet.min.js`](batonnet.min.js) and include it in a `<script></script>` tag in your web page:
+Download [`batonnet.min.js`](batonnet.min.js) and [`batonnet.min.css`](batonnet.min.js) and include them in your web page:
 
 ```html
+<link rel="stylesheet" type="text/css" href="batonnet.min.css">
 <script src="batonnet.min.js"></script>
 ```
 
