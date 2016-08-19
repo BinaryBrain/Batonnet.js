@@ -1,7 +1,7 @@
 Batonnet = function () {
 	console.log("Processing Batonnets")
 	let c = '|'
-	let batonnets = document.querySelectorAll('.batonnet')
+	let batonnets = document.querySelectorAll('.batonnet:not(.batonnet-processed)')
 	;[].forEach.call(batonnets, function (batonnet) {
 		process(batonnet)
 	})
@@ -31,6 +31,7 @@ Batonnet = function () {
 			}
 		}
 
+		batonnet.classList.add('batonnet-processed')
 		batonnet.innerHTML = groupsResult.join(' ')
 	}
 }
