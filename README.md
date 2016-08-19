@@ -23,3 +23,7 @@ And finally call the `Batonnet()` function in javascript once the element is loa
 ```js
 Batonnet();
 ```
+
+## Demo
+
+You can see the power and the flexibility of Bâtonnet.js in live action by following [this link](https://binarybrain.github.io/Batonnet.js/).
