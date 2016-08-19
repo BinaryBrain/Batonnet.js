@@ -1,3 +1,8 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+.batonnet-processed {
+	font-family: 'Lora', serif;
+}
+
 .batonnet-group {
 	position: relative;
 }
