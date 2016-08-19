@@ -1,6 +1,6 @@
-# Batonnet.js
+# Bâtonnet.js
 
-Batonnet.js (or Bâtonnet.js, pronounced /ba.tɔ.nɛ/) is a universal, intercultural and user-friendly way to display numbers.
+Bâtonnet.js (or Batonnet.js, pronounced /ba.tɔ.nɛ/) is a universal, intercultural and user-friendly way to display numbers.
 It provides a lightweight, easy to use library that can convert any positive integers into a more readable form, even across different regional, political and/or religional culture.
 
 ## Usage
